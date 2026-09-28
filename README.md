@@ -3,6 +3,7 @@
 ![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)
 [![Project Page](https://img.shields.io/badge/Project_Page-Simple--WAM-2ea44f.svg)](https://zrporz.github.io/Simple-WAM-Web/)
 [![Hugging Face Model](https://img.shields.io/badge/Hugging_Face-Model-f7c843.svg)](https://huggingface.co/rpzhou/Simple-WAM)
+[![Hugging Face Precompute Cache](https://img.shields.io/badge/Hugging_Face-Dataset-f7c843.svg)](https://huggingface.co/datasets/rpzhou/simplewam-precompute-cache)
 
 Codebase for **What Makes World Action Models Generalize?
 An Empirical Study of Test-Time Future Modeling**.
