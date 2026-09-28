@@ -53,7 +53,7 @@ video_latent_num_workers: 8
 # wandb
 wandb:
   enabled: true
-  workspace: tehaji007
+  workspace: null
   project: simple-wam
   name: null
   group: null
