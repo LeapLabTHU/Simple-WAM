@@ -1,0 +1,35 @@
+# @package _global_
+
+defaults:
+  - override /data: robotwin
+  - override /model: simplewam
+  - _self_
+
+# dataloading
+num_workers: 8
+
+model:
+  mot_checkpoint_mixed_attn: false
+
+# scheduler
+lr_scheduler_type: "cosine"
+learning_rate: 1e-4
+num_epochs: 5
+max_steps: null
+log_every: 10
+save_every: 2000
+save_state_every: 500000
+eval_every: 500
+
+# training
+gradient_accumulation_steps: 16
+global_batch_size: 1024
+weight_decay: 1e-2
+resume: null
+
+data:
+  train:
+    use_precomputed_video_latents: true
+    video_latent_cache_dir: ./data/video_latents/robotwin
+    use_precomputed_metadata_cache: true
+    metadata_cache_dir: ./data/metadata_cache/robotwin

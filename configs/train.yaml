@@ -1,0 +1,67 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - data: null
+  - model: null
+  - task: null
+
+
+output_dir: null
+
+# dataloading
+batch_size: null
+global_batch_size: null
+num_workers: 4
+
+# scheduler
+lr_scheduler_type: "cosine"
+learning_rate: 1.0e-4
+num_epochs: 1
+max_steps: null
+log_every: 10
+save_every: 100
+save_state_every: null  
+eval_every: 50
+eval_num_inference_steps: 10
+
+# training
+gradient_accumulation_steps: 1
+split_video_action_loss_backward: false
+split_video_action_loss_mode: alternating_batches
+mixed_precision: "bf16"
+seed: 42
+max_grad_norm: 1.0
+weight_decay: 0.0
+resume: null
+
+# sampling
+sampling:
+  weighted: false
+  default_weight: 1.0
+  combine: max
+  replacement: true
+  num_samples: null
+  rules: []
+
+# precompute video latents
+overwrite_video_latents: false
+video_latent_save_dtype: fp16
+video_latent_batch_size: 8
+video_latent_num_workers: 8
+
+# wandb
+wandb:
+  enabled: true
+  workspace: tehaji007
+  project: simple-wam
+  name: null
+  group: null
+  mode: online
+
+hydra:
+  job:
+    chdir: false
+  run:
+    dir: .
+  output_subdir: null

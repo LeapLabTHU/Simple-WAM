@@ -1,0 +1,17 @@
+# @package _global_
+
+defaults:
+  - libero_joint_2cam224_1e-4
+  - _self_
+
+data:
+  train:
+    # 训练时排除 libero_spatial
+    libero_include_suites:
+      - libero_10
+      - libero_object
+      - libero_goal
+
+num_epochs: 15
+save_every: 20000
+save_state_every: 100000

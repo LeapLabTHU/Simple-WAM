@@ -1,0 +1,21 @@
+# @package _global_
+
+defaults:
+  - robotwin_joint_3cam_384_1e-4
+  - _self_
+
+data:
+  train:
+    robotwin_drop_tasks: 
+      - blocks_ranking_rgb
+      - place_cans_plasticbox
+      - beat_block_hammer
+      - stack_blocks_three
+      - handover_block
+      - place_dual_shoes
+      - put_bottles_dustbin
+      - put_object_cabinet
+      - place_fan
+      - hanging_mug
+    robotwin_action_loss_drop_tasks: []
+

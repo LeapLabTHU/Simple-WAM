@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - libero_joint_2cam224_1e-4
+  - _self_
+
+data:
+  train:
+    libero_fewshot_per_task: 5
+    libero_fewshot_seed: 0
+    libero_fewshot_allow_less: false
+
+num_epochs: 100
+save_every: 5000

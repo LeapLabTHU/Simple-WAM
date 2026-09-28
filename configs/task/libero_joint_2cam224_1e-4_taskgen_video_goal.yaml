@@ -1,0 +1,10 @@
+# @package _global_
+
+defaults:
+  - libero_joint_2cam224_1e-4
+  - _self_
+
+model:
+  loss:
+    action_loss_exclude_dataset_keywords:
+      - libero_goal_no_noops_lerobot

@@ -1,0 +1,15 @@
+# @package _global_
+
+defaults:
+  - robotwin_joint_3cam_384_1e-4
+  - _self_
+
+num_epochs: 50
+
+data:
+  train:
+    robotwin_clean_only: true
+    robotwin_clean_episodes_per_group: 10
+    robotwin_clean_random_select: true
+    robotwin_clean_random_seed: 0
+    robotwin_clean_pool_episodes_per_group: 550
