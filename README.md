@@ -5,6 +5,7 @@
 [![Hugging Face Model](https://img.shields.io/badge/Hugging_Face-Model-f7c843.svg)](https://huggingface.co/rpzhou/Simple-WAM)
 [![Hugging Face Precompute Cache](https://img.shields.io/badge/Hugging_Face-Dataset-f7c843.svg)](https://huggingface.co/datasets/rpzhou/simplewam-precompute-cache)
 [![YouTube Video](https://img.shields.io/badge/YouTube-Video-FF0000?logo=youtube&logoColor=white)](https://youtu.be/deZDjwicKZI?si=QdDn-QvojUIo-lna)
+[![Huggingface Paper](https://img.shields.io/badge/Hugging_Face-Paper-f7c843.svg)](https://huggingface.co/papers/2609.34981)
 
 [Renping Zhou*](https://zrporz.github.io/), [Zanlin Ni*](https://nzl-thu.github.io/), [Zihao Fan](https://github.com/fanzh03), [Guohao Fu](https://github.com/lenfgh/), [Zeyu Liu](https://lzy-tony.github.io/), [Hao Shi](https://shihao1895.github.io/), [Jie Zhang](https://github.com/zjie9168-cpu/), [Chi Bene Chen](https://benechen.github.io/), [Yang Yue](https://scholar.google.com/citations?user=Q9cLkdcAAAAJ), [Xueyang Fu](https://xueyangfu.github.io/), [Gao Huang†](https://www.gaohuang.net/) \
 (* indicates equal contribution, † means Co-corresponding author) 
