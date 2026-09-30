@@ -1,12 +1,18 @@
 # Simple-WAM
 
-![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/abs/2609.34981)
 [![Project Page](https://img.shields.io/badge/Project_Page-Simple--WAM-2ea44f.svg)](https://zrporz.github.io/Simple-WAM-Web/)
 [![Hugging Face Model](https://img.shields.io/badge/Hugging_Face-Model-f7c843.svg)](https://huggingface.co/rpzhou/Simple-WAM)
 [![Hugging Face Precompute Cache](https://img.shields.io/badge/Hugging_Face-Dataset-f7c843.svg)](https://huggingface.co/datasets/rpzhou/simplewam-precompute-cache)
+[![YouTube Video](https://img.shields.io/badge/YouTube-Video-FF0000?logo=youtube&logoColor=white)](https://youtu.be/deZDjwicKZI?si=QdDn-QvojUIo-lna)
 
-Codebase for **What Makes World Action Models Generalize?
-An Empirical Study of Test-Time Future Modeling**.
+[Renping Zhou*](https://zrporz.github.io/), [Zanlin Ni*](https://nzl-thu.github.io/), [Zihao Fan](https://github.com/fanzh03), [Guohao Fu](https://github.com/lenfgh/), [Zeyu Liu](https://lzy-tony.github.io/), [Hao Shi](https://shihao1895.github.io/), [Jie Zhang](https://github.com/zjie9168-cpu/), [Chi Bene Chen](https://benechen.github.io/), [Yang Yue](https://scholar.google.com/citations?user=Q9cLkdcAAAAJ), [Xueyang Fu](https://xueyangfu.github.io/), [Gao Huang†](https://www.gaohuang.net/) \
+(* indicates equal contribution, † means Co-corresponding author) 
+
+<img src="./assets/teaser.png"> 
+
+This repository contains the official implementation of the paper "What Makes World Action Models Generalize?
+An Empirical Study of Test-Time Future Modeling".
 
 ## Environment Setup
 
@@ -544,3 +550,16 @@ We thank the authors and maintainers of the following open-source projects:
 - [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO) for the benchmark and simulation environment.
 - [LIBERO-plus](https://github.com/sylvestf/LIBERO-plus) for the robustness benchmark.
 - [RoboTwin](https://github.com/RoboTwin-Platform/RoboTwin) for the simulation environment, tasks, and assets.
+
+## BibTeX
+```
+@misc{zhou2026makesworldactionmodels,
+      title={What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling}, 
+      author={Renping Zhou and Zanlin Ni and Zihao Fan and Guohao Fu and Zeyu Liu and Hao Shi and Jie Zhang and Chi Bene Chen and Yang Yue and Xueyang Fu and Gao Huang},
+      year={2026},
+      eprint={2609.34981},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2609.34981}, 
+}
+```
