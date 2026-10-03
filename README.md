@@ -10,7 +10,7 @@
 [Renping Zhou*](https://zrporz.github.io/), [Zanlin Ni*](https://nzl-thu.github.io/), [Zihao Fan](https://github.com/fanzh03), [Guohao Fu](https://github.com/lenfgh/), [Zeyu Liu](https://lzy-tony.github.io/), [Hao Shi](https://shihao1895.github.io/), [Jie Zhang](https://github.com/zjie9168-cpu/), [Chi Bene Chen](https://benechen.github.io/), [Yang Yue](https://scholar.google.com/citations?user=Q9cLkdcAAAAJ), [Xueyang Fu](https://xueyangfu.github.io/), [Gao Huang†](https://www.gaohuang.net/) \
 (* indicates equal contribution, † means Co-corresponding author) 
 
-<img src="./assets/teaser.png"> 
+<img src="./assets/teaser.webp"> 
 
 This repository contains the official implementation of the paper "What Makes World Action Models Generalize?
 An Empirical Study of Test-Time Future Modeling".
