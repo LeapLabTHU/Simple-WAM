@@ -554,13 +554,10 @@ We thank the authors and maintainers of the following open-source projects:
 
 ## BibTeX
 ```
-@misc{zhou2026makesworldactionmodels,
-      title={What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling}, 
-      author={Renping Zhou and Zanlin Ni and Zihao Fan and Guohao Fu and Zeyu Liu and Hao Shi and Jie Zhang and Chi Bene Chen and Yang Yue and Xueyang Fu and Gao Huang},
-      year={2026},
-      eprint={2609.34981},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2609.34981}, 
+@article{zhou2026makes,
+  title={What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling},
+  author={Zhou, Renping and Ni, Zanlin and Fan, Zihao and Fu, Guohao and Liu, Zeyu and Shi, Hao and Zhang, Jie and Chen, Chi Bene and Yue, Yang and Fu, Xueyang and others},
+  journal={arXiv preprint arXiv:2609.34981},
+  year={2026}
 }
 ```
